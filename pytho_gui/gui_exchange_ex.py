@@ -55,7 +55,7 @@ convert_button = Button(window, text="Convert", command=convert_currency)
 convert_button.grid(row=3, column=0, columnspan=2, pady=10)
 
 # 결과 출력
-result_label = Label(window, text="Converted Amount: ")
+result_label = Label(window, text="변환 금액은: ")
 result_label.grid(row=4, column=0, columnspan=2, pady=10)
 
 window.mainloop()
